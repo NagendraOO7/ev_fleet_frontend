@@ -22,7 +22,7 @@ export default function VehicleCard({ vehicle, onSelect }) {
           <div><p className="text-[10px] text-gray-500">Temp</p><p className="text-sm font-bold">{t.battery_temp_c.toFixed(1)}°C</p></div>
         </div>
       ) : (
-        <p className="text-xs text-gray-600 pt-3 border-t border-gray-800">No telemetry</p>
+        <p className="text-xs text-gray-600 pt-3 border-t border-gray-800">-</p>
       )}
     </div>
   );
