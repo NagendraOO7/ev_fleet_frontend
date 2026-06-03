@@ -8,15 +8,15 @@ export default defineConfig({
     port: 3000,
     proxy: {
       '/vehicles': {
-        target: 'http://localhost:3000',
+        target: 'https://ev-fleet-backend-9yab.onrender.com',
         changeOrigin: true,
       },
       '/fleet': {
-        target: 'http://localhost:3000',
+        target: 'https://ev-fleet-backend-9yab.onrender.com',
         changeOrigin: true,
       },
       '/telemetry': {
-        target: 'http://localhost:3000',
+        target: 'https://ev-fleet-backend-9yab.onrender.com',
         changeOrigin: true,
       }
     }
